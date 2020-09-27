@@ -1,0 +1,14 @@
+<configuration name="opus.conf">
+      <settings>
+<!--param name="asymmetric-sample-rates" value="0"/-->
+        <param name="use-vbr" value="0"/>
+        <param name="use-dtx" value="0"/>
+	<param name="complexity" value="10"/>
+	<param name="maxaveragebitrate" value="510000"/>
+        <param name="packet-loss-percent" value="0"/>
+        <param name="keep-fec-enabled" value="0"/>
+        <param name="use-jb-lookahead" value="0"/>
+        <param name="advertise-useinbandfec" value="0"/>
+	<param name="adjust-bitrate" value="0"/>
+      </settings>
+</configuration>
